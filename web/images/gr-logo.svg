@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 70" width="240" height="70">
+  <defs>
+    <linearGradient id="grRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF1E27"/>
+      <stop offset="100%" stop-color="#D9001A"/>
+    </linearGradient>
+    <linearGradient id="grSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#CCCCCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Speed accent slanted slash -->
+  <polygon points="12,62 30,8 40,8 22,62" fill="url(#grRed)" opacity="0.9"/>
+  <polygon points="26,62 38,8 44,8 32,62" fill="#FFFFFF" opacity="0.4"/>
+
+  <!-- "G" Letter -->
+  <path d="M 98,16 C 90,10 78,8 65,8 C 42,8 28,24 28,40 C 28,56 43,62 65,62 C 84,62 96,52 98,42 L 68,42 L 68,34 L 108,34 C 108,54 88,68 62,68 C 34,68 18,52 18,35 C 18,17 38,2 66,2 C 82,2 97,5 106,12 Z" fill="url(#grSilver)"/>
+
+  <!-- "R" Letter with Racing Slash -->
+  <path d="M 116,8 L 148,8 C 162,8 174,15 174,27 C 174,36 167,42 156,45 L 176,64 L 162,64 L 144,46 L 128,46 L 128,64 L 116,64 Z M 128,16 L 128,38 L 147,38 C 156,38 162,34 162,27 C 162,20 156,16 147,16 Z" fill="url(#grRed)"/>
+
+  <!-- GAZOO RACING Text -->
+  <text x="182" y="24" font-family="'Orbitron', sans-serif" font-size="10" font-weight="900" fill="#FFFFFF" letter-spacing="1.5">TOYOTA</text>
+  <text x="182" y="38" font-family="'Orbitron', sans-serif" font-size="9" font-weight="800" fill="#E40521" letter-spacing="1">GAZOO</text>
+  <text x="182" y="52" font-family="'Orbitron', sans-serif" font-size="9" font-weight="800" fill="#D1D1D6" letter-spacing="1">RACING</text>
+</svg>
